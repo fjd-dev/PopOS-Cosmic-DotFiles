@@ -1,0 +1,96 @@
+// Zed settings
+{
+  "edit_predictions": {
+    "mode": "subtle"
+  },
+  "icon_theme": "Bearded Icon Theme",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_size": 16,
+  "ui_font_family": "GeistMono Nerd Font",
+  "buffer_font_size": 15,
+  "current_line_highlight": "gutter",
+  "selection_highlight": false,
+  "tab_size": 2,
+  "cursor_shape": "underline",
+  "show_edit_predictions": false,
+  "theme": {
+    "mode": "system",
+    "light": "GitHub Dark Default",
+    "dark": "GitHub Dark Default"
+  },
+  "tab_bar": {
+    "show": false
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  // GIT
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  // TERMINAL
+  "terminal": {
+    "dock": "bottom",
+    "font_family": "GeistMono Nerd Font Mono",
+    "cursor_shape": "underline",
+    "copy_on_select": true,
+    "shell": "system",
+    "scrollbar": {
+      "show": "never"
+    },
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+  // DEBUGGER
+  "debugger": {
+    "dock": "left"
+  },
+  // AGENT
+  "agent": {
+    "dock": "left",
+    "model_parameters": []
+  },
+  // NOTIFICATIONS
+  "notification_panel": {
+    "dock": "left"
+  },
+  // PROJECT
+  "project_panel": {
+    "dock": "right"
+  },
+  // LANGUAGES
+  "languages": {
+    "JSONC": {
+      "show_edit_predictions": false
+    },
+    "Python": {
+      "tab_size": 4
+    }
+  },
+  // LSP
+  "lsp": {
+    "ruff": {
+      "initialization_options": {
+        "settings": {
+          "exclude": ["*"]
+        }
+      }
+    },
+    "basedpyright": {
+      "settings": {
+        "basedpyright.analysis": {
+          "diagnosticMode": "workspace",
+          "inlayHints": {
+            "callArgumentNames": false
+          }
+        }
+      }
+    }
+  }
+}

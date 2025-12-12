@@ -1,0 +1,64 @@
+{
+  // WORKBENCH
+  "workbench.editor.showTabs": "none",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 20,
+  // COPILOT
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  // EDITOR
+  "editor.tabSize": 2,
+  "editor.allowVariableFonts": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.selectionHighlight": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "underline",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.5,
+  "editor.fontWeight": "600",
+  "editor.fontLigatures": true,
+  "editor.codeLensFontFamily": "GeistMono Nerd Font",
+  "editor.inlayHints.fontFamily": "GeistMono Nerd Font",
+  "editor.inlineSuggest.fontFamily": "GeistMono Nerd Font",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.matchBrackets": "never",
+  // ZEN MODE
+  "zenMode.centerLayout": true,
+  "zenMode.hideLineNumbers": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.showTabs": "none",
+  "zenMode.restore": true,
+  "zenMode.silentNotifications": true,
+  "zenMode.hideStatusBar": true,
+  // TERMINAL
+  "terminal.integrated.fontFamily": "GeistMono Nerd Font Mono",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorStyleInactive": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.copyOnSelection": true,
+  // FILES
+  "files.autoSave": "onFocusChange",
+  // TELEMETRY
+  "telemetry.feedback.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  // FORMATTERS
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}
